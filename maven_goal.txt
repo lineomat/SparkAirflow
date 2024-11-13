@@ -1,0 +1,5 @@
+mvn archetype:generate -DgroupId=com.airscholar.spark -DartfactId=spark-job -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5 -DinteractiveMode=false
+
+mvn clean install -U ###to install dependencies --run in directory where pom.xml exists
+mvn compile 
+mvn package

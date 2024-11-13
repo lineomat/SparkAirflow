@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\l.matasane\Projects\Python\SparkAirFlow\jobs\scala\wordcount.scala:14:25: not found: value outputFile[0m
+[0m[[0m[31merror[0m] [0m[0m		counts.saveAsTextFile(outputFile)[0m
+[0m[[0m[31merror[0m] [0m[0m		                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
