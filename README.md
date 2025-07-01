@@ -26,4 +26,4 @@ To run this project using Docker, follow these steps:
   1. Clone this repository to your local machine.
   2. Navigate to the directory containing the docker-compose.yml file.
   3. Build and run the containers using Docker Compose:
-docker-compose up -d --build
+      _docker-compose up -d --build_
