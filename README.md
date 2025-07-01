@@ -4,10 +4,11 @@
 
 ### Project Structure
 
-###### The DAG sparking_flow includes the following tasks:
+The DAG _sparking_flow_ includes the following tasks:
 
-start: A PythonOperator that prints "Jobs started".
-python_job: A SparkSubmitOperator that submits a Python Spark job.
-scala_job: A SparkSubmitOperator that submits a Scala Spark job.
-java_job: A SparkSubmitOperator that submits a Java Spark job.
-end: A PythonOperator that prints "Jobs completed successfully".
+_start_: A PythonOperator that prints "Jobs started".
+_python_job_: A SparkSubmitOperator that submits a Python Spark job.
+_scala_job_: A SparkSubmitOperator that submits a Scala Spark job.
+_java_job_: A SparkSubmitOperator that submits a Java Spark job.
+_end_: A PythonOperator that prints "Jobs completed successfully".
+These tasks are executed in a sequence where the start task triggers the Spark jobs in parallel, and upon their completion, the end task is executed.
