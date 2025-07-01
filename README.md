@@ -4,7 +4,7 @@
 
 ### Project Structure
 
-The DAG _sparking_flow_ includes the following tasks:
+The DAG ######_SparkAirflow_ includes the following tasks:
 
 _start_: A PythonOperator that prints "Jobs started".
 _python_job_: A SparkSubmitOperator that submits a Python Spark job.
